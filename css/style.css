@@ -1,21 +1,21 @@
 body {
-    background-color: #eeeeee;
+    background: radial-gradient( blue, black) fixed;
 }
 
 .grid {
     width: 600px;
     height: 500px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #e25909;
     padding: 10px 50px 50px 50px;
     border-radius: 50px;
-    border: 2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #cbcbcb;
+    border: 2px solid #050101;
+    box-shadow: 10px 15px 5px #050101;
 }
 
 .grid h1 {
     font-family: "sans-serif";
-    background-color: #57636e;
+    background: radial-gradient( red, blue, whitesmoke) fixed;
     font-size: 60px;
     text-align: center;
     color: #ffffff;
@@ -24,7 +24,7 @@ body {
 }
 
 #score {
-    color: #5A6772;
+    color: radial-gradient( red, blue, whitesmoke) fixed;
     text-align: center;
     font-size: 30px;
 }
@@ -32,7 +32,7 @@ body {
 .grid #question {
     font-family: "monospace";
     font-size: 30px;
-    color: #5A6772;
+    color: whitesmoke;
 }
 
 .buttons {
@@ -42,12 +42,13 @@ body {
 #btn0,
 #btn1,
 #btn2,
-#btn3 {
-    background-color: #778897;
+#btn3,
+#btn4 {
+    background-color: radial-gradient( red, blue, whitesmoke) fixed;
     width: 250px;
     font-size: 20px;
-    color: #fff;
-    border: 1px solid #1D3C6A;
+    color: rgb(7, 7, 7);
+    border: 1px solid black;
     border-radius: 50px;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px;
@@ -56,19 +57,21 @@ body {
 #btn0:hover,
 #btn1:hover,
 #btn2:hover,
-#btn3:hover {
+#btn3:hover,
+#btn4:hover {
     cursor: pointer;
-    background-color: #57636e;
+    background-color: hsl(239, 92%, 33%);
 }
 
 #btn0:focus,
 #btn1:focus,
 #btn2:focus,
-#btn3:focus {
+#btn3:focus,
+#btn4:focus {
     outline: 0;
 }
 
 #progress {
-    color: #2b2b2b;
+    color: black;
     font-size: 18px;
 }
