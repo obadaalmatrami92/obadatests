@@ -1,4 +1,4 @@
-body {
+    body {
     background: radial-gradient( blue, black) fixed;
 }
 
@@ -75,3 +75,11 @@ body {
     color: black;
     font-size: 18px;
 }
+
+#btn4 {
+    display: block;
+    margin: auto;
+}
+
+#btn44 {
+    padding-top: 10px;

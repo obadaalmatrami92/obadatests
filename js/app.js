@@ -42,31 +42,32 @@ function showScores() {
 
 function startagain() {
     window.history.back();
-};
+}
 
 // create questions
 var questions = [
 
-    new Question("Which one is not an object oriented programming language?", ["Java", "C#", "C++", "C"], "C"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("There are ____ main components of object oriented programming.", ["1", "6", "2", "4"], "4"),
-    new Question("Which language is used for web apps?", ["PHP", "Python", "Javascript", "All"], "All"),
-    new Question("MVC is a ____.", ["Language", "Library", "Framework", "All"], "Framework"),
-    new Question("Which one is not an object oriented programming language?", ["Java", "C#", "C++", "C"], "C"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("There are ____ main components of object oriented programming.", ["1", "6", "2", "4"], "4"),
-    new Question("Which language is used for web apps?", ["PHP", "Python", "Javascript", "All"], "All"),
-    new Question("MVC is a ____.", ["Language", "Library", "Framework", "All"], "Framework"),
-    new Question("Which one is not an object oriented programming language?", ["Java", "C#", "C++", "C"], "C"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("There are ____ main components of object oriented programming.", ["1", "6", "2", "4"], "4"),
-    new Question("Which language is used for web apps?", ["PHP", "Python", "Javascript", "All"], "All"),
-    new Question("MVC is a ____.", ["Language", "Library", "Framework", "All"], "Framework"),
-    new Question("Which one is not an object oriented programming language?", ["Java", "C#", "C++", "C"], "C"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("There are ____ main components of object oriented programming.", ["1", "6", "2", "4"], "4"),
-    new Question("Which language is used for web apps?", ["PHP", "Python", "Javascript", "All"], "All"),
-    new Question("MVC is a ____.", ["Language", "Library", "Framework", "All"], "Framework"),
+    // write down as many as youu want number of question 
+    new Question("When was the first painting in the world ?", [" 40,000 years old", " 70 years old", " 1000 years old ", " 200 Years old "], " 40,000 years old"),
+    new Question("When the first novel in the world was published?", [" 1785", " 1992", " 2000 ", " 1719  "], " 1719"),
+    new Question(" What is the most famous novel in the world ?", [" To Kill a Mockingbird ", " One Hundred Years of Solitude", " Anna Karenina ", " Invisible Man "], "Anna Karenina"),
+    new Question("Who is the best author of books ?", [" Gilbert Patten", " Enid Blyton", " Sidney Sheldon", " J. K. Rowling"], " Enid Blyton"),
+    new Question(" who is the best painter in the world ?", [" Rembrandt", " Vincent Van Gogh ", " Leonardo Da Vinci", " Claude Monet "], " Leonardo Da Vinci"),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
+    new Question(" ?", [" ", " ", " ", "  "], " "),
 
 
 
