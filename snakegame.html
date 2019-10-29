@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Snake-Game</title>
+    <style>
+        body {
+            background: radial-gradient(green, black) fixed;
+        }
+        
+        canvas {
+            display: block;
+            margin: 0 auto;
+            padding: 5px;
+        }
+        
+        #btn1,
+        #btn5 {
+            background-color: green;
+            width: 350px;
+            font-size: 20px;
+            color: rgb(7, 7, 7);
+            border: 10px solid black;
+            border-radius: 50px;
+            padding: 10px 10px;
+            cursor: pointer;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="snake" width="610" height="610"></canvas>
+
+    <button id="btn1" onclick="history.go(0)" VALUE="Refresh">Start Again</button>
+    <button id="btn5" onclick="history.back()">Back</button>
+
+
+    <script src="js/snake.js"></script>
+
+</body>
+
+</html>
