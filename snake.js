@@ -140,7 +140,7 @@ function draw() {
 
         clearInterval(game);
         dead.play();
-        alert("Game Over Click The Start Again.....!!!")
+        alert("Game Over Click Start Again.....!!!")
 
 
     }
